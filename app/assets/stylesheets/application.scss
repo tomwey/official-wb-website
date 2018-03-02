@@ -4,7 +4,18 @@
  */
 
 @import "bootstrap-sprockets";
-@import "bootstrap";
+@import "bootstrap-4";
+@import "font-awesome";
+@import "line-icons";
+@import "owl.carousel";
+@import "owl.theme";
+@import "nivo-lightbox";
+@import "magnific-popup";
+@import "slicknav";
+@import "animate";
+
+@import "main";
+@import "responsive";
 
 body {
 //  padding-top: 60px;

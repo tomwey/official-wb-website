@@ -3,7 +3,7 @@ class HomeController < ApplicationController
     render text: 'Not found', status: 404, layout: false
   end
   
-  def install
+  def index
     
   end
   
