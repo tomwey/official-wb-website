@@ -580,7 +580,7 @@ $letter-spacing: 0px;
   6. Features Section Style
    ========================================================================== */
 	#features{
-		background: url(../img/bg1.jpg) fixed no-repeat;
+		background: url(bg1.jpg) fixed no-repeat;
 		background-size: cover;
 		color: #fff;
 		overflow: hidden;
@@ -846,7 +846,7 @@ $letter-spacing: 0px;
  10. Counter Section Style
  ========================================================================== */
    .counters{
-	   	background: url(../img/counter.jpg) fixed;
+	   	background: url(counter.jpg) fixed;
 		position: relative;
 		.facts-item{
 			text-align: center;
@@ -1072,9 +1072,9 @@ $letter-spacing: 0px;
   	}
   }
   #contact{
-		background: #343a40;
-	    color: #fff;
-	    position: relative;
+//    background: #343a40;
+//      color: #fff;
+      position: relative;
 	} 
   .form-control{
 	 	width: 100%;
@@ -1115,7 +1115,7 @@ $letter-spacing: 0px;
  ========================================================================== */
 footer{
 	background: #292f35;
-	padding: 20px 0;
+  padding: 20px 0;
 }
 .footer-links{
 	line-height: 48px;
@@ -1134,8 +1134,9 @@ footer{
 	}
 }
 .copyright{
-	margin-top: 10px;
-	float: right;
+  padding-top: 20px;
+//  float: right;
+text-align: center;
 p{
   color: #fff;
   a{
