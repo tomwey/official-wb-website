@@ -25,7 +25,7 @@ set :full_app_name, "#{fetch(:application)}_#{fetch(:stage)}"
 
 server '120.132.57.133', user: "deployer", roles: %w{web app db}, primary: true
 
-set :deploy_to, "/home/#{fetch(:deploy_user)}/apps/#{fetch(:full_app_name)}"
+set :deploy_to, "/data/www/apps/#{fetch(:full_app_name)}"
 #"/data/www/apps/#{fetch(:full_app_name)}"
 #"/home/#{fetch(:deploy_user)}/apps/#{fetch(:full_app_name)}"
 
