@@ -10,7 +10,7 @@
           <div class="col-md-3 col-sm-6">
             <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
               <div class="icon">
-                <i class="lnr lnr-pencil"></i>
+                <i class="lnr lnr-screen"></i>
               </div>
               <h4>企业软件解决方案</h4>
               <p>专注于常见的企业软件开发与定制，例如：OA系统，ERP系统等等。</p>
@@ -19,7 +19,7 @@
           <div class="col-md-3 col-sm-6">
             <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
               <div class="icon">
-                <i class="lnr lnr-code"></i>
+                <i class="lnr lnr-smartphone"></i>
               </div>
               <h4>移动端APP开发</h4>
               <p>专注于移动端手机网站设计、微网站、手机APP定制开发，手机游戏开发。</p>
@@ -28,7 +28,7 @@
           <div class="col-md-3 col-sm-6">
             <div class="item-boxes wow fadeInDown" data-wow-delay="1.2s">
               <div class="icon">
-                <i class="lnr lnr-mustache"></i>
+                <i class="lnr lnr-bubble"></i>
               </div>
               <h4>微信开发</h4>
               <p>专注各种微信公众号、小程序开发。</p>
@@ -37,7 +37,7 @@
           <div class="col-md-3 col-sm-6">
             <div class="item-boxes wow fadeInDown" data-wow-delay="1.2s">
               <div class="icon">
-                <i class="lnr lnr-mustache"></i>
+                <i class="lnr lnr-magic-wand"></i>
               </div>
               <h4>UI视觉设计</h4>
               <p>强大的UI视觉设计团队，为您打造高品质的视觉体验方案。</p>
@@ -62,16 +62,19 @@
             <!-- Portfolio Controller/Buttons -->
             <div class="controls text-center">
               <a class="filter active btn btn-common" data-filter="all">
-                All 
+                全部 
               </a>
               <a class="filter btn btn-common" data-filter=".design">
-                Design 
+                APP 
               </a>
               <a class="filter btn btn-common" data-filter=".development">
-                Development
+                游戏
               </a>
               <a class="filter btn btn-common" data-filter=".print">
-                Print 
+                公众号 
+              </a>
+              <a class="filter btn btn-common" data-filter=".smallprogram">
+                小程序
               </a>
             </div>
             <!-- Portfolio Controller/Buttons Ends-->
@@ -83,7 +86,7 @@
               <div class="portfolio-item">
                 <div class="shot-item">
                   <%= image_tag 'img1.jpg' %>
-                  <a class="overlay lightbox" href="img/portfolio/img1.jpg">
+                  <a class="overlay lightbox" href="http://www.baidu.com">
                     <i class="lnr lnr-eye item-icon"></i>
                   </a>
                 </div>               
@@ -151,7 +154,7 @@
     <!-- partners Section Ends --> 
 
     <!-- Team section Start -->
-    <section id="about" class="section">
+    <section id="about" class="section counters">
       <div class="container">
         <div class="section-header">          
           <h2 class="section-title">关于我们</h2>
@@ -160,73 +163,52 @@
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-6 col-xs-12">
-            <div class="single-team">
-              <%= image_tag 'team1.jpg'%>
-              <div class="team-details">
-                <div class="team-inner">
-                  <h4 class="team-title">Jhon Doe</h4>
-                  <p>Chief Technical Officer</p>
-                  <ul class="social-list">
-                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                  </ul>
-                </div>
+            <div class="facts-item">   
+              <div class="icon">
+                <i class="lnr lnr-clock"></i>
+              </div>             
+              <div class="fact-count">
+                <h3><span class="counter">2015</span><span class="small">年</span></h3>
+                <h4>后风科技成立</h4>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-xs-12">
-            <div class="single-team">
-              <%= image_tag 'team2.jpg' %>
-              <div class="team-details">
-                <div class="team-inner">
-                  <h4 class="team-title">Paul Kowalsy</h4>
-                  <p>CEO & Co-Founder</p>
-                  <ul class="social-list">
-                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                  </ul>
-                </div>
+            <div class="facts-item">   
+              <div class="icon">
+                <i class="lnr lnr-users"></i>
+              </div>             
+              <div class="fact-count">
+                <h3><span class="counter">20</span><span class="small">+</span></h3>
+                <h4>服务客户</h4>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-xs-12">
-            <div class="single-team">
-              <%= image_tag 'team3.jpg'%>
-              <div class="team-details">
-                <div class="team-inner">                  
-                  <h4 class="team-title">Emilly Williams</h4>
-                  <p>Business Manager</p>
-                  <ul class="social-list">
-                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                  </ul>
-                </div>
+            <div class="facts-item">   
+              <div class="icon">
+                <i class="lnr lnr-code"></i>
+              </div>             
+              <div class="fact-count">
+                <h3><span class="counter">30</span><span class="small">+</span></h3>
+                <h4>累计开发产品</h4>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-xs-12">
-            <div class="single-team">
-              <%= image_tag 'team4.jpg', class: 'img-fulid' %>
-              <div class="team-details">
-                <div class="team-inner">
-                  <h4 class="team-title">Patricia Green</h4>
-                  <p>Graphic Designer</p>
-                  <ul class="social-list">
-                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                  </ul>
-                </div>
+            <div class="facts-item">   
+              <div class="icon">
+                <i class="lnr lnr-database"></i>
+              </div>             
+              <div class="fact-count">
+                <h3><span class="counter">10</span><span class="small">+</span></h3>
+                <h4>涉足行业、种类</h4>
               </div>
             </div>
           </div>
+        </div>
+        <div class="intros">
+          <p>后风科技（www.afterwind.cn）创立于2015年。我们追求技术和设计的完美，喜欢玩新技术，尝试新的设计方法和风格。用“工匠”的心态来打造一个个精致的互联网产品。 设计为导向，开发为基石， 坚持以用户为中心，专注用户体验，深入挖掘用户需求，从每一次用户调研中发现用户需求， 关注并改进每一个细节，使整个交互流程更加流畅，从源头出发提高用户体验，为客户创造价值。</p>
         </div>
       </div>
     </section>

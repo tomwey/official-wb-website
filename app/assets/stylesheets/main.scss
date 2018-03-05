@@ -580,7 +580,7 @@ $letter-spacing: 0px;
   6. Features Section Style
    ========================================================================== */
 	#features{
-		background: url(bg1.jpg) fixed no-repeat;
+		background: image-url('bg1.jpg') fixed no-repeat;
 		background-size: cover;
 		color: #fff;
 		overflow: hidden;
@@ -703,7 +703,16 @@ $letter-spacing: 0px;
  /* ==========================================================================
   8. Portfolio Section
    ========================================================================== */
-	#portfolios{
+	#cases{
+//    background: image-url('bg1.jpg') fixed no-repeat;
+//    background-size: cover;
+//    color: #fff;
+//    overflow: hidden;
+//    position: relative;
+//    .section-title,.section-subtitle {
+//      color: white;
+//    }
+background: rgb(247,247,247);
 	  .mix{
 	    padding: 10px;
 	  }
@@ -745,6 +754,7 @@ $letter-spacing: 0px;
 		border-radius: 4px;
 		background: #fff;   
 		position: relative;		
+//    border: 2px solid #fff;
 		img{
 			width: 100%;
 		}
@@ -846,29 +856,32 @@ $letter-spacing: 0px;
  10. Counter Section Style
  ========================================================================== */
    .counters{
-	   	background: url(counter.jpg) fixed;
+//       background: url(counter.jpg) fixed;
 		position: relative;
+    .intros {
+      margin-top: 30px;
+    }
 		.facts-item{
 			text-align: center;
-			color: #fff;
+//      color: #fff;
 			.icon{
 				margin-bottom: 30px;
 				i{
 					font-size: 50px;
-					color: #fff;
+//          color: #fff;
 				}
 			}
 			
 			.fact-count{
 				h3{
 					font-size: 35px;
-					color: #fff;
+//          color: #fff;
 					margin-bottom: 15px;
 				}
 				h4{
 					font-size: 20px;
 					font-weight: 400;
-					color: #fff;
+//          color: #fff;
 				}
 			}
 		}
@@ -1072,9 +1085,18 @@ $letter-spacing: 0px;
   	}
   }
   #contact{
-//    background: #343a40;
+//     background: #61D2B4;
+//    color: #fff;
+	  overflow: hidden;
+	  position: relative;
+  
+    background: rgb(247,247,247);//#343a40;
+    
+//    .section-title, .section-subtitle {
+//      color: white;
+//    }
 //      color: #fff;
-      position: relative;
+//      position: relative;
 	} 
   .form-control{
 	 	width: 100%;
