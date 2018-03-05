@@ -6,44 +6,7 @@
           <hr class="lines wow zoomIn" data-wow-delay="0.3s">
           <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">一站式软件外包服务平台</p>
         </div>
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
-              <div class="icon">
-                <i class="lnr lnr-screen"></i>
-              </div>
-              <h4>企业软件解决方案</h4>
-              <p>专注于常见的企业软件开发与定制，例如：OA系统，ERP系统等等。</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-              <div class="icon">
-                <i class="lnr lnr-smartphone"></i>
-              </div>
-              <h4>移动端APP开发</h4>
-              <p>专注于移动端手机网站设计、微网站、手机APP定制开发，手机游戏开发。</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="1.2s">
-              <div class="icon">
-                <i class="lnr lnr-bubble"></i>
-              </div>
-              <h4>微信开发</h4>
-              <p>专注各种微信公众号、小程序开发。</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="1.2s">
-              <div class="icon">
-                <i class="lnr lnr-magic-wand"></i>
-              </div>
-              <h4>UI视觉设计</h4>
-              <p>强大的UI视觉设计团队，为您打造高品质的视觉体验方案。</p>
-            </div>
-          </div>
-        </div>
+        <%= raw SiteConfig.services_html %>
       </div>
     </section>
     <!-- Services Section End -->
@@ -55,7 +18,7 @@
         <div class="section-header">          
           <h2 class="section-title">最新案例</h2>
           <hr class="lines">
-          <p class="section-subtitle">一个优秀的产品，必定是设计，技术，理念的完美结合</p>
+          <p class="section-subtitle"><%= SiteConfig.case_subtitle %></p>
         </div>
         <div class="row">          
           <div class="col-md-12">
@@ -107,54 +70,9 @@
           <hr class="lines">
           <p class="section-subtitle">我们只做一件事：持续服务好客户，并为客户创造价值。</p>
         </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-xs-12">
-            <div class="facts-item">   
-              <div class="icon">
-                <i class="lnr lnr-clock"></i>
-              </div>             
-              <div class="fact-count">
-                <h3><span class="counter">2015</span><span class="small">年</span></h3>
-                <h4>后风科技成立</h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-xs-12">
-            <div class="facts-item">   
-              <div class="icon">
-                <i class="lnr lnr-users"></i>
-              </div>             
-              <div class="fact-count">
-                <h3><span class="counter">20</span><span class="small">+</span></h3>
-                <h4>服务客户</h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-xs-12">
-            <div class="facts-item">   
-              <div class="icon">
-                <i class="lnr lnr-code"></i>
-              </div>             
-              <div class="fact-count">
-                <h3><span class="counter">30</span><span class="small">+</span></h3>
-                <h4>累计开发产品</h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-xs-12">
-            <div class="facts-item">   
-              <div class="icon">
-                <i class="lnr lnr-database"></i>
-              </div>             
-              <div class="fact-count">
-                <h3><span class="counter">10</span><span class="small">+</span></h3>
-                <h4>涉足行业、种类</h4>
-              </div>
-            </div>
-          </div>
-        </div>
+        <%= raw SiteConfig.about_stats %>
         <div class="intros">
-          <p>后风科技（www.afterwind.cn）创立于2015年。我们追求技术和设计的完美，喜欢玩新技术，尝试新的设计方法和风格。用“工匠”的心态来打造一个个精致的互联网产品。 设计为导向，开发为基石， 坚持以用户为中心，专注用户体验，深入挖掘用户需求，从每一次用户调研中发现用户需求， 关注并改进每一个细节，使整个交互流程更加流畅，从源头出发提高用户体验，为客户创造价值。</p>
+          <p><%= raw SiteConfig.company_intro %></p>
         </div>
       </div>
     </section>
