@@ -1098,6 +1098,18 @@ background: rgb(247,247,247);
 //      color: #fff;
 //      position: relative;
 	} 
+  .contact-info {
+    table,tr,td {
+      border: 0;
+    }
+    
+    .qrcode {
+      max-width: 168px;
+    }
+    .label {
+      text-align: right;
+    }
+  }
   .form-control{
 	 	width: 100%;
 		margin-bottom: 10px;
