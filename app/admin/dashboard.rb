@@ -16,13 +16,13 @@ ActiveAdmin.register_page "Dashboard" do
     end
     
     # 玩家统计
-    columns do
-      column do
-        panel "游戏统计" do
-          render 'admin/dashboard/game_stats'
-        end
-      end
-    end
+    # columns do
+    #   column do
+    #     panel "游戏统计" do
+    #       render 'admin/dashboard/game_stats'
+    #     end
+    #   end
+    # end
   
     # 充值统计
     

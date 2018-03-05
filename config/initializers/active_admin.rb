@@ -4,12 +4,12 @@ ActiveAdmin.setup do |config|
   # Set the title that is displayed on the main layout
   # for each of the active admin pages.
   #
-  config.site_title = "坚果棋牌后台系统"
+  config.site_title = "Afterwind外包后台系统"
   
   config.namespace :admin do |admin|
     admin.build_menu do |menu|
       menu.add id: 'system',      label: '系统功能',        priority: 2
-      menu.add id: 'game',        label: '游戏管理',        priority: 3
+      # menu.add id: 'game',        label: '游戏管理',        priority: 3
       # menu.add id: 'users',       label: '用户系统',        priority: 3
       # menu.add id: 'publish',     label: '发布系统',        priority: 5
       # menu.add id: 'partin_logs', label: '广告数据统计',     priority: 6
@@ -32,7 +32,7 @@ ActiveAdmin.setup do |config|
   end
   
   # 自定义页脚
-  config.footer = "版权所有 #{Date.today.year} 坚果棋牌"
+  config.footer = "版权所有 #{Date.today.year} Afterwind外包"
 
   # Set the link url for the title. For example, to take
   # users to your main site. Defaults to no link.

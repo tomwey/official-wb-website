@@ -39,9 +39,8 @@
       recharge: '充值'
       pay_log: '交易明细'
       area: '区域'
-      game: '游戏信息'
-      game_update: '游戏更新'
-      game_recharge: '游戏充值'
+      tag: '标签'
+      project: '项目'
     attributes:
       user:
         uid: 'ID'
@@ -77,31 +76,16 @@
         key: '配置名'
         value: '配置值'
         description: '配置说明'
-      game_config:
-        key: '配置名'
-        value: '配置值'
-        description: '配置说明'
-      game:
-        name: '游戏名称'
-        icon: 'ICON'
-        bundle_id: 'Bundle Id/包名'
-        code: '游戏英文代码'
-        intro: '游戏简介'
-      game_update:
-        version: '版本号'
-        search_paths: '客户端搜索路劲配置'
-        os: '所属系统'
-        game_id: '所属游戏'
-        package_file: '升级包文件'
-        change_log: '更新说明'
-      game_recharge:
-        game_id: '所属游戏'
-        uid: '用户ID'
-        money: '金额'
-        diamond: '金币数量'
-        recharge_desc: '充值说明'
-        recharge_man: '充值人'
-        recharged_at: '充值时间'
+      tag:
+        name: '名称'
+        code: '代码'
+      project:
+        uniq_id: 'ID'
+        name: '项目名称'
+        body: '项目描述'
+        cover: '封面图'
+        tags: '所属标签'
+        visit: '访问数'
       attachment:
         data: '文件'
         uniq_id: 'ID'

@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   # 网页文档
   resources :pages, path: :p, only: [:show]
   
+  resources :projects, path: :case, only: [:show]
+  
   # 队列后台管理
   require 'sidekiq/web'
   authenticate :admin_user do

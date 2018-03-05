@@ -5,11 +5,11 @@ class CoverImageUploader < BaseUploader
   storage :qiniu
   
   version :large do
-    process resize_to_fill: [588, 369]
+    process resize_to_fill: [610, 458]
   end
   
   version :small, from_version: :large do
-    process resize_to_fill: [196, 123]
+    process resize_to_fill: [200, 150]
   end
   
   # def filename
